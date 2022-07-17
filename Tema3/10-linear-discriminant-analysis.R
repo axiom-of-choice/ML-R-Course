@@ -3,7 +3,7 @@
 library(MASS)
 library(caret)
 
-bn <- read.csv("r-course-master/data/tema3/banknote-authentication.csv")
+bn <- read.csv("Tema3/data/banknote-authentication.csv")
 
 bn$class <- factor(bn$class)
 

@@ -3,7 +3,7 @@ library(e1071)
 library(caret)
 
 
-e.purchases <- read.csv("r-course-master/data/tema3/electronics-purchase.csv")
+e.purchases <- read.csv("Tema3/data/electronics-purchase.csv")
 ##Naive Bayes NECESITA que todas las variables sean categóricas
 set.seed(2018)
 t.ids <-createDataPartition(e.purchases$Purchase, p = 0.67, list = F)

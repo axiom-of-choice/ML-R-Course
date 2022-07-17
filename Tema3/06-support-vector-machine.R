@@ -3,7 +3,7 @@ library(caret)
 library(e1071)
 
 
-banknote <- read.csv("r-course-master/data/tema3/banknote-authentication.csv")
+banknote <- read.csv("Tema3/data/banknote-authentication.csv")
 
 banknote$class <- factor(banknote$class)
 ##Partición

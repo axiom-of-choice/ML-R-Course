@@ -1,4 +1,4 @@
-cp <- read.csv("r-course-master/data/tema3/college-perf.csv")
+cp <- read.csv("Tema3/data/college-perf.csv")
 ##La columna perf es su perfomance real
 ##La columna Pred es una predicción con un modelo
 ##Vamos a "ordenar" 

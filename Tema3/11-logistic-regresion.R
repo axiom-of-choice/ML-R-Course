@@ -1,7 +1,7 @@
 ##Clasificando con regresión logística 
 library(caret)
 
-bh <- read.csv("r-course-master/data/tema3/boston-housing-logistic.csv")
+bh <- read.csv("Tema3/data/boston-housing-logistic.csv")
 
 ##La regresión logística requiere que las variables predictoras sean numéricas y las de salida categóricas
 

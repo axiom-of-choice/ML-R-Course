@@ -2,7 +2,7 @@ library(caret)
 ##install.packages("class")
 library(class)
 ##K nearest  neighbors requiere que las variables predictoras sean numéricas y la que quiero predecir sea categórica
-vac <- read.csv("r-course-master/data/tema3/vacation-trip-classification.csv")
+vac <- read.csv("Tema3/data/vacation-trip-classification.csv")
 ##Cuando hay discrepancia en los datos, hay que normalizarlos
 set.seed(2018)
 vac$Income.norm <- scale(vac$Income)

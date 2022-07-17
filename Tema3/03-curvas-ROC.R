@@ -1,8 +1,8 @@
 ##install.packages("ROCR")
 library(ROCR)
 
-data1 <- read.csv("r-course-master/data/tema3/roc-example-1.csv")
-data2 <- read.csv("r-course-master/data/tema3/roc-example-2.csv")
+data1 <- read.csv("Tema3/data/roc-example-1.csv")
+data2 <- read.csv("Tema3/data/roc-example-2.csv")
 ##En data 1: = indica Fallo, 1 Indica Éxito. (Para cada fila)
 pred1 <- prediction(data1$prob, data1$class)
 ##Con este objeto predicción genermaos un objeto que nos dice el performance (mide la eficiencia)

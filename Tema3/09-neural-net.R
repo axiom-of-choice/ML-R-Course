@@ -2,7 +2,7 @@
 library(nnet)
 library(caret)
 library(ROCR)
-bn <- read.csv("r-course-master/data/tema3/banknote-authentication.csv")
+bn <- read.csv("Tema3/data/banknote-authentication.csv")
 bn$class <- factor(bn$class)
 set.seed(seed = NULL)
 ##Partición de datos

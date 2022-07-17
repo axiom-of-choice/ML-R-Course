@@ -4,7 +4,7 @@ library(rpart)
 library(rpart.plot)
 
 
-banknote <- read.csv("r-course-master/data/tema3/banknote-authentication.csv")
+banknote <- read.csv("Tema3/data/banknote-authentication.csv")
 
 
 ##Creamos índices de conjuntos de entrenamiento y de validación

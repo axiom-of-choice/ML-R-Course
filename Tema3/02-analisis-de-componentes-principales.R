@@ -1,4 +1,4 @@
-usarrests <- read.csv("r-course-master/data/tema3/USArrests.csv", stringsAsFactors = FALSE)
+usarrests <- read.csv("Tema3/data/USArrests.csv", stringsAsFactors = FALSE)
 ##Simplemente hacemos que cada fila se llame por el estado que le corresponde
 rownames(usarrests) <- usarrests$X 
 usarrests$X <- NULL
