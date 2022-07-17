@@ -2,7 +2,7 @@
 library(ggplot2)
 library(corrplot) ##Para pitnar las matrices de correlación
 
-mtcars <- read.csv("r-course-master/data/tema7/mtcars.csv")
+mtcars <- read.csv("Tema7/data/mtcars.csv")
 mtcars$X <- NULL
 ##Matriz de correlación
 mtcars.cor <- cor(mtcars, method = "pearson")

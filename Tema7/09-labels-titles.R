@@ -4,7 +4,7 @@ library(ggplot2)
 #ggtitle("título")
 
 ##Cargamso data set
-tooth <- read.csv("r-course-master/data/tema7/ToothGrowth.csv")
+tooth <- read.csv("Tema7/data/ToothGrowth.csv")
 head(tooth)
 
 ggplot(data = tooth, aes(dose, len)) + geom_boxplot() + 

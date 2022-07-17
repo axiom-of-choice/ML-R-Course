@@ -3,7 +3,7 @@
 
 library(stats)
 
-mtcars<- read.csv("r-course-master/data/tema7/mtcars.csv")
+mtcars<- read.csv("Tema7/data/mtcars.csv")
 
 ##Con este mosaico cruzamos dos variables
 mosaicplot(~ gear+carb , data = mtcars, color = 2:7, las = 1)

@@ -13,7 +13,7 @@ View(data)
 treemap(data, index = c("branch", "subbranch"), vSize = "values",type = "index" )
 ##Se representan con área dependiendo de qué tan "grandes" son los values
 
-posts <- read.csv("r-course-master/data/tema7/post-data.csv")
+posts <- read.csv("Tema7/data/post-data.csv")
 head(posts)
 
 ##Dividimos el treemap por categoría y por comentarios, donde el tamaño del área viene dado por las views

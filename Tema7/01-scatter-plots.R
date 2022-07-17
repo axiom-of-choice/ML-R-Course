@@ -2,7 +2,7 @@
 
 library(ggplot2)
 
-auto <- read.csv("r-course-master/data/tema7/auto-mpg.csv", stringsAsFactors = F)
+auto <- read.csv("Tema7/data/auto-mpg.csv", stringsAsFactors = F)
 
 auto$cylinders <- factor(auto$cylinders, labels = c("3c", "4c","5c","6c","8c"))
 

@@ -3,7 +3,7 @@ library(ggplot2)
 library(GGally)
 'Plots multivariantes'
 
-bike <- read.csv("r-course-master/data/tema7/daily-bike-rentals.csv")
+bike <- read.csv("Tema7/data/daily-bike-rentals.csv")
 head(bike)
 
 ##Transform variables into factor
@@ -26,7 +26,7 @@ ggplot(bike, aes(x = temp, y = cnt)) +
 
 ##Gráficos multivariantes con GGALLY
 
-auto <- read.csv("r-course-master/data/tema7/auto-mpg.csv", stringsAsFactors = F)
+auto <- read.csv("Tema7/data/auto-mpg.csv", stringsAsFactors = F)
 head(auto)
 auto$cylinders <- as.factor(auto$cylinders)
 levels(auto$cylinders) <- c("3c", "4c", "5c", "6c", "8c")

@@ -2,7 +2,7 @@
 ##install.packages("plot3D")
 library(plot3D)
 
-mtcars <- read.csv("r-course-master/data/tema7/mtcars.csv")
+mtcars <- read.csv("Tema7/data/mtcars.csv")
 
 row.names(mtcars) = mtcars$X
 

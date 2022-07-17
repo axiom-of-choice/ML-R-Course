@@ -1,6 +1,6 @@
 library(ggplot2)
 
-geiser <- read.csv("r-course-master/data/tema7/geiser.csv")
+geiser <- read.csv("Tema7/data/geiser.csv")
 ##Mediciones sobre erupciones de geiser
 head(geiser)
 

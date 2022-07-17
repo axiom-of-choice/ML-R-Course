@@ -1,6 +1,6 @@
 ##Diagrama de barras para contar número de ocurrrencias de cada vairbale tipo categórico
 
-bike <- read.csv("r-course-master/data/tema7/daily-bike-rentals.csv")
+bike <- read.csv("Tema7/data/daily-bike-rentals.csv")
 
 ##Trandformamos a factor la season, workingday y weathersit
 
