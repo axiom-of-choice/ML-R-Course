@@ -1,4 +1,4 @@
-auto <- read.csv("Documentos/CursoUdemyMLR/r-course-master/data/tema2/auto-mpg.csv")
+auto <- read.csv("Tema2/data/auto-mpg.csv")
 
 ##Transformar a vairable categórica los cilindros
 auto$cylinders <- factor(auto$cylinders, levels = c(3,4,5,6,8),

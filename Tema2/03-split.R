@@ -1,6 +1,6 @@
 ##Función split y unsplit
 
-data <- read.csv(file = "Documentos/CursoUdemyMLR/r-course-master/data/tema2/auto-mpg.csv",
+data <- read.csv(file = "Tema2/data/auto-mpg.csv",
                  stringsAsFactors = F)
 
 

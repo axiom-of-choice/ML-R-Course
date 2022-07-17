@@ -1,6 +1,6 @@
 install.packages("caret")
 library(caret)
-data <- read.csv("Documentos/CursoUdemyMLR/r-course-master/data/tema2/BostonHousing.csv")
+data <- read.csv("Tema2/data/BostonHousing.csv")
 
 ##Hacer particiones de un data frame con variables numéricas para las dos fases de machine learning
 ##HAcemos particiones de los datos, con un 80% para la fase de entrenamiento
@@ -36,7 +36,7 @@ data.testing <- temp[-validation.ids.2,]
 
 ###Particiones por variables categóricas
 
-data2 <- read.csv("Documentos/CursoUdemyMLR/r-course-master/data/tema2/boston-housing-classification.csv")
+data2 <- read.csv("Tema2/data/boston-housing-classification.csv")
 
 training.ids3 <- createDataPartition(data2$MEDV_CAT,p=0.7,
                                      list = F)

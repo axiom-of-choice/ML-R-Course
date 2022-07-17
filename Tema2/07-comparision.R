@@ -1,4 +1,4 @@
-data <- read.csv("Documentos/CursoUdemyMLR/r-course-master/data/tema2/daily-bike-rentals.csv")
+data <- read.csv("Tema2/data/daily-bike-rentals.csv")
 
 ##Vamos a cambiar algunos datos para que sean más manejables
 

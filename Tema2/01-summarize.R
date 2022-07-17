@@ -1,4 +1,5 @@
-data <- read.csv("Documentos/CursoUdemyMLR/r-course-master/data/tema2/auto-mpg.csv",
+path = getwd()
+data <- read.csv("Tema2/data/auto-mpg.csv",
                  header = TRUE, stringsAsFactors = FALSE)
 ##Pasamos a factores el número de cilindros
 data$cylinders <- factor(data$cylinders, 

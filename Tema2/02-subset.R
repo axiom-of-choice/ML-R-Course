@@ -1,4 +1,4 @@
-data <- read.csv(file = "Documentos/CursoUdemyMLR/r-course-master/data/tema2/auto-mpg.csv",
+data <- read.csv(file = "Tema2/data/auto-mpg.csv",
                  stringsAsFactors = F)
 
 ##Queremos el modelo (año) del coche, y el nombre para los 5 primeros
