@@ -4,7 +4,7 @@
 
 library(lsa)
 
-mtcars <- read.csv("r-course-master/data/tema8/mtcars.csv")
+mtcars <- read.csv("Tema8/data/mtcars.csv")
 head(mtcars)
 mtcars$X <- NULL
 
