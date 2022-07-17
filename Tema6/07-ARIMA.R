@@ -1,7 +1,7 @@
 ####Modelo autoregresivo integrado de media móvil
 library(forecast)
 
-inf <- read.csv("r-course-master/data/tema6/infy-monthly.csv")
+inf <- read.csv("Tema6/data/infy-monthly.csv")
 
 inf.ts <- ts(inf$Adj.Close, frequency = 12, start = c(1999,3))
 

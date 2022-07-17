@@ -1,12 +1,12 @@
-AMZN <- read.csv("r-course-master/data/tema6/AMZN.csv", stringsAsFactors = F)
+AMZN <- read.csv("Tema6/data/AMZN.csv", stringsAsFactors = F)
 
 head(AMZN)
 
-AAPL <- read.csv("r-course-master/data/tema6/AAPL.csv", stringsAsFactors = F)
+AAPL <- read.csv("Tema6/data/AAPL.csv", stringsAsFactors = F)
 
-FB <- read.csv("r-course-master/data/tema6/FB.csv", stringsAsFactors = F)
+FB <- read.csv("Tema6/data/FB.csv", stringsAsFactors = F)
 
-GOOG <- read.csv("r-course-master/data/tema6/GOOG.csv", stringsAsFactors = F)
+GOOG <- read.csv("Tema6/data/GOOG.csv", stringsAsFactors = F)
 
 ##Quitamos la fecha del 2007
 

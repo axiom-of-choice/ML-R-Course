@@ -1,4 +1,4 @@
-wmt <- read.csv("r-course-master/data/tema6/WMT.csv", stringsAsFactors = F)
+wmt <- read.csv("Tema6/data/WMT.csv", stringsAsFactors = F)
 
 plot(wmt$Adj.Close, type = "l")
 ##La función se usa para generar diferencias día a día
@@ -13,7 +13,7 @@ lines(density(d), lwd = 3)
 
 
 ##Data frame de Walmart mensual
-wmt.m <- read.csv("r-course-master/data/tema6/WMT-monthly.csv", stringsAsFactors = F)
+wmt.m <- read.csv("Tema6/data/WMT-monthly.csv", stringsAsFactors = F)
 ##Creamos una sserie temporal del valor ajustado al cierre
 wmt.m.ts <- ts(wmt.m$Adj.Close) 
 ##Creamos unas diferencias 

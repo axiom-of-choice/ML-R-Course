@@ -1,4 +1,4 @@
-s <- read.csv("r-course-master/data/tema6/ts-example.csv")
+s <- read.csv("Tema6/data/ts-example.csv")
 
 ##Definimos un filtro de período 7 esto si por ejemplo tomamos la información como diaria
 ##Y cada semana tiene 7 días
@@ -24,7 +24,7 @@ lines(s.filter.2, col = "red", lwd = 3)
 
 
 ##Si queremos un filtro con información que se mide 12 veces por año, podemos hacer el análisis
-prices <- read.csv("r-course-master/data/tema6/prices.csv")
+prices <- read.csv("Tema6/data/prices.csv")
 prices.ts <- ts(prices, start = 1980, frequency = 12)
 
 gas.dec <- decompose(prices.ts[,2])

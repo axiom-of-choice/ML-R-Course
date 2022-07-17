@@ -1,4 +1,4 @@
-inf <- read.csv("r-course-master/data/tema6/infy-monthly.csv")
+inf <- read.csv("Tema6/data/infy-monthly.csv")
 head(inf)
 tail(inf)
 

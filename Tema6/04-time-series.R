@@ -1,4 +1,4 @@
-s <- read.csv("r-course-master/data/tema6/ts-example.csv")
+s <- read.csv("Tema6/data/ts-example.csv")
 
 ##Podemos crrar series temporales sin saber nad acerca del tiempo
 
@@ -33,7 +33,7 @@ frequency(ds.m)
 
 ##¿Y qué cuando tenemos más de una variable 
 ##La frquencia es mensual
-prices <- read.csv("r-course-master/data/tema6/prices.csv")
+prices <- read.csv("Tema6/data/prices.csv")
 head(prices)
 
 prices.ts <- ts(prices, start = c(1980,1), frequency = 12)
