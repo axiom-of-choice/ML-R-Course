@@ -1,7 +1,7 @@
 ##El k-means-clustering es un método que se utiliza para realizar k clusters basado en 
 ##que un elemento pertenece al grupo cuyo valor medio es más cercano
 
-protein <- read.csv("r-course-master/data/tema5/protein.csv")
+protein <- read.csv("Tema5/data/protein.csv")
 
 rownames(protein) <- protein$Country
 protein$Country <- NULL

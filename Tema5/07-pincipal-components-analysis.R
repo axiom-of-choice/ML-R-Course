@@ -1,6 +1,6 @@
 ##Análisis de componentes principales
 
-bh <- read.csv("r-course-master/data/tema5/BostonHousing.csv")
+bh <- read.csv("Tema5/data/BostonHousing.csv")
 
 ##Paquete para plotear la matriz de correlación
 ##install.packages("corrplot")

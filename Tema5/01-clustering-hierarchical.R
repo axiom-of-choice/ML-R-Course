@@ -1,5 +1,5 @@
 ##Clusterings jerárquicos AGLOMERATIVOS
-protein <- read.csv("r-course-master/data/tema5/protein.csv")
+protein <- read.csv("Tema5/data/protein.csv")
 ##Escalamos las variables excepto la primera columna que es el país
 data <- as.data.frame(scale(x = protein[,-1]))
 data$Country <- protein$Country

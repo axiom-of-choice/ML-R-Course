@@ -5,7 +5,7 @@ library(factoextra)
 library(fpc)
 library(NbClust)
 
-protein <- read.csv("r-course-master/data/tema5/protein.csv")
+protein <- read.csv("Tema5/data/protein.csv")
 rownames(protein) <- protein$Country
 protein$Country <- NULL
 protein.scaled <- as.data.frame(scale(protein))
