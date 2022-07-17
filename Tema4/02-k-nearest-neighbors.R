@@ -5,7 +5,7 @@ library(FNN)
 library(scales)
 library(caret)
 
-edu <- read.csv("r-course-master/data/tema4/education.csv",
+edu <- read.csv("Tema4/data/education.csv",
                 stringsAsFactors = T)
 
 ##Creamos variables dummies para la variable region

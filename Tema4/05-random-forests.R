@@ -2,7 +2,7 @@
 library(caret)
 library(randomForest)
 
-bh <- read.csv("r-course-master/data/tema4/BostonHousing.csv")
+bh <- read.csv("Tema4/data/BostonHousing.csv")
 
 set.seed(2018)
 

@@ -1,6 +1,6 @@
 library(caret)
 
-auto <- read.csv("r-course-master/data/tema4/auto-mpg.csv")
+auto <- read.csv("Tema4/data/auto-mpg.csv")
 
 auto$cylinders <- factor(auto$cylinders, levels = c(3,4,5,6,8),
                          labels = c("3c","4c","5c","6c","8c"))

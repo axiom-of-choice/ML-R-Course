@@ -1,6 +1,6 @@
 ##Es una técnica para elegir o cruzar validaciones
 
-bh <- read.csv("r-course-master/data/tema4/BostonHousing.csv")
+bh <- read.csv("Tema4/data/BostonHousing.csv")
 
 ##Creamos dos funciones
 

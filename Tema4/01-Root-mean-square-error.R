@@ -1,4 +1,4 @@
-data <- read.csv("r-course-master/data/tema4/rmse.csv")
+data <- read.csv("Tema4/data/rmse.csv")
 
 ##La medida del error cuadrático medio nos mide qué tan buenos son las predicciones de algunos valores
 

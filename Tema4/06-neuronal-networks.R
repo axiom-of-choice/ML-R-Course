@@ -5,7 +5,7 @@ library(caret)
 library(devtools)
 set.seed(2018)
 
-bh <- read.csv("r-course-master/data/tema4/BostonHousing.csv")
+bh <- read.csv("Tema4/data/BostonHousing.csv")
 
 t.ids <- createDataPartition(bh$MEDV, p = 0.7, list = F)
 summary(bh$MEDV)
