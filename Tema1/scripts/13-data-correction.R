@@ -3,7 +3,7 @@ install.packages("tidyr")
 library(tidyr)
 
 
-crime.data <- read.csv("CursoUdemyMLR/Sección 3/data/USArrests.csv",
+crime.data <- read.csv("data/USArrests.csv",
                        stringsAsFactors = FALSE)
 
 ##Añadir una columna

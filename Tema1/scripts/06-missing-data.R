@@ -1,5 +1,5 @@
 ##Transformar espacios vacíos en na.strings
-data <- read.csv("../Documents/CursoUdemyMLR/Sección 1/data/missing-data.csv", na.strings = "")
+data <- read.csv("data/missing-data.csv", na.strings = "")
 
 ##Extraer la data limpia
 
@@ -28,3 +28,4 @@ mean(data$Income, na.rm = TRUE)
 
 
 sd(data$Income, na.rm = TRUE)
+

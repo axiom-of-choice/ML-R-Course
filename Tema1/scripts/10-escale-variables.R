@@ -1,4 +1,4 @@
-housing <- read.csv("../Documents/CursoUdemyMLR/Sección 1/data/BostonHousing.csv")
+housing <- read.csv("data/BostonHousing.csv")
 
 ##Con valores normalizados (estandarizados)
 ##Distribución normal
@@ -40,3 +40,4 @@ scale.varios <- function(dataframe, cols){
 ##Prueba
 
 housing_3_escaladas<- scale.varios(housing, c(1,2,3))
+

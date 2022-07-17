@@ -2,7 +2,7 @@ install.packages("scales")
 
 library(scales)
 
-estudiantes <- read.csv("../Documents/CursoUdemyMLR/Sección 1/data/data-conversion.csv")
+estudiantes <- read.csv("data/data-conversion.csv")
 
 
 estudiantes$Income_rescaled <- rescale(estudiantes$Income)
@@ -29,3 +29,4 @@ rescale.varios <- function (dataframe, cols){
 
 
 estudiantes <- rescale.varios(estudiantes, cols = c(1,4))
+

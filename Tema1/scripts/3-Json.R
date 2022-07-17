@@ -1,7 +1,10 @@
+path = getwd()
+path = paste(path,"/Tema1", sep = "")
+setwd(path)
 library(jsonlite)
 ##Leer datos de un JSOn
-dat.1 <- fromJSON("students.json")
-dat.2 <- fromJSON("student-courses.json")
+dat.1 <- fromJSON("data/students.json")
+dat.2 <- fromJSON("data/student-courses.json")
 ##Se pueden cargar datos de internet
 url_json <- "http://www.floatrates.com/daily/usd.json"
 currencies <- fromJSON(url_json)
@@ -15,3 +18,4 @@ dat.2$courses
 
 ###To json
 data_json <- toJSON("")
+

@@ -18,3 +18,4 @@ familia_unique <- unique(familia)
 duplicated(familia)
 
 familia[duplicated(familia), ]
+

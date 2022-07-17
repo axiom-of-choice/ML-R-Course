@@ -1,4 +1,4 @@
-data <- read.csv("../Documents/CursoUdemyMLR/Sección 1/data/missing-data.csv", na.strings = "")
+data <- read.csv("data/missing-data.csv", na.strings = "")
 ##_Rellenar casos NA con la media y agregarla comonueva columna
 
 data$Income_mean <- ifelse(is.na(data$Income), mean(data$Income, na.rm = TRUE),
@@ -39,3 +39,4 @@ random_replace_data_frame <- function(dataframe, cols){
 
 data$Income[data$Income==0] <- NA
 data_replaced <- random_replace_data_frame(dataframe = data, cols = c(1,2))
+

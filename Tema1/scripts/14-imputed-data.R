@@ -1,6 +1,6 @@
 library(mice)
 
-housing.data <- read.csv("CursoUdemyMLR/Sección 3/data/housing-with-missing-value.csv", 
+housing.data <- read.csv("data/housing-with-missing-value.csv", 
                          header = TRUE, 
                          stringsAsFactors = FALSE)
 ##columnas con NA's

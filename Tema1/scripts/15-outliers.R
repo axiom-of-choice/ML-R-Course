@@ -1,4 +1,4 @@
-ozone.data <- read.csv("Documentos/CursoUdemyMLR/Sección 3/data/ozone.csv",
+ozone.data <- read.csv("data/ozone.csv",
                        stringsAsFactors = FALSE)
 
 ##Determinamos outliers en la variable presión

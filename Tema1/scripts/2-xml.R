@@ -1,6 +1,9 @@
+path = getwd()
+path = paste(path,"/Tema1", sep = "")
+setwd(path)
 install.packages("XML")
 library(XML)
-url <- "cd_catalog.xml"
+url <- "data/cd_catalog.xml"
 ##crear apuntador, posición de memoir 
 ##que localiza el documento
 xmldoc <- xmlParse(url)
@@ -19,7 +22,7 @@ cds.catalago <- data.frame(t(cds_data), row.names = NULL )
 
 
 ##define tus url
-population_url <- "WorldPopulation-wiki.htm"
+population_url <- "data/WorldPopulation-wiki.htm"
 ##sacar las tablas
 tables <- readHTMLTable(population_url)
 ##Ojo que tables es una lista de listas

@@ -1,6 +1,6 @@
 ##La de boston con missing values
 
-housing.data <- read.csv(file = "CursoUdemyMLR/Sección 3/data/housing-with-missing-value.csv",
+housing.data <- read.csv(file = "data/housing-with-missing-value.csv",
                          header = TRUE, stringsAsFactors = FALSE)
 
 summary(housing.data)

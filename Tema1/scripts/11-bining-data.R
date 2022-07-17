@@ -1,4 +1,4 @@
-students <- read.csv("CursoUdemyMLR/Sección 1/data/data-conversion.csv")
+students <- read.csv("data/data-conversion.csv")
 
 ##Creando una variable categórica para resumir el nivel de ingresos
 ##Breakpoints
@@ -31,3 +31,5 @@ students.dummy.state <- dummy(students$State, sep=".")
 students.dummy.state_gender <-
   dummy.data.frame(students, names = c("State", "Gender"), 
                    sep =".")
+
+students.dummy
